@@ -36,10 +36,10 @@ export default function Home() {
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link
-              href="/demo"
+              href="/analyze"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand text-white font-semibold text-sm hover:bg-brand-deep transition-colors focus-visible:outline-2 focus-visible:outline-brand"
             >
-              Run the demo
+              Open analyzer
               <ArrowRight size={16} />
             </Link>
             <Link
@@ -85,7 +85,7 @@ export default function Home() {
         {/* Results snapshot */}
         <section className="mx-auto max-w-4xl px-4 sm:px-6 py-12">
           <h2 className="text-xl font-semibold text-ink mb-6">
-            Synthetic TMR sensor results (seed=42)
+            Benchmark results — synthetic TMR sensor
           </h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
@@ -98,7 +98,7 @@ export default function Home() {
               </thead>
               <tbody className="divide-y divide-border">
                 <tr>
-                  <td className="px-4 py-3 text-ink">Recall on planted mavericks</td>
+                  <td className="px-4 py-3 text-ink">Recall on labeled mavericks</td>
                   <td className="px-4 py-3 text-right font-data font-bold text-brand-deep">100%</td>
                   <td className="px-4 py-3 text-right font-data text-not-capable">0%</td>
                 </tr>
@@ -125,10 +125,10 @@ export default function Home() {
           </p>
           <div className="mt-6 flex justify-center">
             <Link
-              href="/demo"
+              href="/analyze"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand text-white font-semibold text-sm hover:bg-brand-deep transition-colors"
             >
-              Explore the full breakdown
+              Open analyzer
               <ArrowRight size={16} />
             </Link>
           </div>

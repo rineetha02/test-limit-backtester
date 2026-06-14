@@ -17,7 +17,7 @@ const CONFIG = {
     tip: "No maverick labels in this dataset. Recall and escape DPPM cannot be computed. Capability and yield loss only.",
   },
   robustness: {
-    label: "Robustness demo",
+    label: "Real-world data",
     color: "bg-slate-100 text-slate-700 border-slate-300",
     tip: "High yield loss reflects the dataset's intrinsic failure rate, not a PAT quality result. Shows the pipeline generalizes to messy real data.",
   },

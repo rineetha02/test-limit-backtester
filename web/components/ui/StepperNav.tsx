@@ -33,7 +33,7 @@ interface Props {
 
 export function StepperNav({ current, onSelect, stages = STAGES_BASE }: Props) {
   return (
-    <nav aria-label="Demo stages" className="flex items-center gap-0">
+    <nav aria-label="Analysis stages" className="flex items-center gap-0">
       {stages.map((stage, i) => {
         const done = stage.id < current;
         const active = stage.id === current;

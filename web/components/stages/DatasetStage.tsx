@@ -17,7 +17,7 @@ const DATASETS: {
   {
     id: "synthetic",
     name: "Synthetic TMR Current Sensor",
-    subtitle: "10 lots, 1,000 parts each, planted mavericks",
+    subtitle: "10 lots × 1,000 parts, labeled mavericks",
     source: "Generated, seed=42",
     source_url: null,
     has_ground_truth: true,
@@ -58,8 +58,8 @@ export function DatasetStage({ selected, onSelect, onNext }: Props) {
       <div>
         <h2 className="text-xl font-semibold text-ink">Choose a dataset</h2>
         <p className="text-sm text-ink-soft mt-1">
-          The synthetic dataset has planted mavericks and ground-truth labels. The real datasets
-          test pipeline robustness on production data without ground truth.
+          The synthetic dataset has labeled mavericks and ground-truth labels. The real datasets
+          validate the pipeline on production data without ground truth.
         </p>
       </div>
 

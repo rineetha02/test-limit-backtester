@@ -110,7 +110,7 @@ export default function HowItWorks() {
               Static PAT computes limits once from a reference population and applies them frozen to
               all subsequent lots. This is easy to implement but has a known failure mode: if the
               process drifts, parts that were on the edge of the PAT window in reference lots may now
-              sit well inside (or outside) it. The demo shows LOT10 with a +4.4 mV offset_voltage
+              sit well inside (or outside) it. The LOT10 example shows a +4.4 mV offset_voltage
               drift. The static PAT limits flag 6.42% of that lot as over-kill, compared to under 1%
               on stable lots.
             </p>
@@ -134,7 +134,7 @@ export default function HowItWorks() {
                 </thead>
                 <tbody className="divide-y divide-border">
                   {[
-                    ["generate_synthetic_data.py", "10 lots, 1,000 parts each, with planted mavericks and spec failures in separate non-overlapping columns."],
+                    ["generate_synthetic_data.py", "10 lots, 1,000 parts each, with labeled mavericks and spec failures in separate non-overlapping columns."],
                     ["profile_tests.py", "Cp and Cpk with robust sigma from reference lots."],
                     ["propose_limits.py", "PAT limits (robust median +/- N sigma, clamped) and Cpk-target limits."],
                     ["backtest.py", "Confusion matrix, recall, escape DPPM, and yield loss against holdout lots."],
@@ -164,7 +164,7 @@ export default function HowItWorks() {
                 capability and yield loss are reported. Recall and escape DPPM are not shown.
               </li>
               <li>
-                <strong className="text-ink">ST-AWFD 71% yield loss is a robustness demo,</strong> not
+                <strong className="text-ink">ST-AWFD 71% yield loss reflects the dataset&apos;s intrinsic failure rate,</strong> not
                 a quality result. The dataset has a very high intrinsic failure rate and all PAT
                 limits were clamped to spec.
               </li>
@@ -178,10 +178,10 @@ export default function HowItWorks() {
 
         <div className="mt-10 pt-6 border-t border-border flex justify-center">
           <Link
-            href="/demo"
+            href="/analyze"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-brand text-white font-semibold text-sm hover:bg-brand-deep transition-colors"
           >
-            Run the demo
+            Open analyzer
             <ArrowRight size={16} />
           </Link>
         </div>

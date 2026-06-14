@@ -4,23 +4,24 @@
   --background: #ffffff;
   --foreground: #0E2A33;
 
-  /* brand palette */
-  --brand: #00857C;
-  --brand-deep: #006D5B;
-  --brand-tint: #E6F4F2;
-  --ink: #0E2A33;
-  --ink-soft: #46606B;
+  /* brand palette — Allegro MicroSystems orange + dark navy */
+  --brand: #F47920;
+  --brand-deep: #D4681A;
+  --brand-tint: #FEF3E9;
+  --ink: #1B2A3B;
+  --ink-soft: #64748B;
   --surface: #ffffff;
-  --surface-alt: #F5F8F9;
-  --border: #D9E3E6;
+  --surface-alt: #F8F9FA;
+  --border: #E2E6EA;
+  --nav: #1B2A3B;
   --spec-color: #D32F2F;
-  --pat-color: #F59E0B;
+  --pat-color: #3B82F6;
 
   /* capability rating scale */
   --not-capable: #B23A3A;
   --marginal: #C98A2E;
-  --capable: #3E8F86;
-  --excellent: #1C6E66;
+  --capable: #16A34A;
+  --excellent: #15803D;
 }
 
 @theme inline {
@@ -38,6 +39,7 @@
   --color-surface: var(--surface);
   --color-surface-alt: var(--surface-alt);
   --color-border: var(--border);
+  --color-nav: var(--nav);
 
   /* semantic */
   --color-spec: var(--spec-color);
