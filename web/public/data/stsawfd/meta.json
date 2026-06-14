@@ -1,0 +1,12 @@
+{
+  "dataset_id": "stsawfd",
+  "display_name": "ST-AWFD D2 (STMicroelectronics)",
+  "subtitle": "126,794 parts, 1,156 lots",
+  "source": "STMicroelectronics GitHub",
+  "source_url": "https://github.com/STMicroelectronics/ST-AWFD",
+  "has_ground_truth": false,
+  "parts_total": 126794,
+  "lots_total": 1156,
+  "by_construction": false,
+  "caveat": "All PAT limits clamped to spec due to high intrinsic failure rate (71% yield loss). Demonstrates pipeline robustness on real production data, not a quality win."
+}

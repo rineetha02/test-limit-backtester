@@ -1,0 +1,68 @@
+[
+  {
+    "parameter": "sensitivity_error",
+    "unit": "%",
+    "lsl": -2.0,
+    "usl": 2.0,
+    "pat_lower": -2.0,
+    "pat_upper": 2.0,
+    "cpk_target_lower": -1.5963,
+    "cpk_target_upper": 1.5999,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "offset_voltage",
+    "unit": "mV",
+    "lsl": -8.0,
+    "usl": 8.0,
+    "pat_lower": -6.0403,
+    "pat_upper": 6.0579,
+    "cpk_target_lower": -5.1212,
+    "cpk_target_upper": 5.1544,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "input_referred_noise",
+    "unit": "mARMS",
+    "lsl": null,
+    "usl": 26.0,
+    "pat_lower": null,
+    "pat_upper": 24.0535,
+    "cpk_target_lower": null,
+    "cpk_target_upper": 22.9079,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "quiescent_supply_current",
+    "unit": "mA",
+    "lsl": null,
+    "usl": 12.0,
+    "pat_lower": null,
+    "pat_upper": 11.9478,
+    "cpk_target_lower": null,
+    "cpk_target_upper": 11.1329,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "bandwidth",
+    "unit": "MHz",
+    "lsl": 10.0,
+    "usl": null,
+    "pat_lower": 10.0,
+    "pat_upper": null,
+    "cpk_target_lower": 10.1606,
+    "cpk_target_upper": null,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "response_time",
+    "unit": "ns",
+    "lsl": null,
+    "usl": 50.0,
+    "pat_lower": null,
+    "pat_upper": 50.0,
+    "cpk_target_lower": null,
+    "cpk_target_upper": 50.063,
+    "clamped_to_spec": true
+  }
+]

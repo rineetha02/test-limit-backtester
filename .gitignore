@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+
+# Data (large files, regenerate with scripts)
+data/secom_data.csv
+data/stsawfd_data.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

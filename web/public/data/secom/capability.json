@@ -1,0 +1,74 @@
+[
+  {
+    "parameter": "param_162",
+    "unit": "a.u.",
+    "lsl": -21549.314493,
+    "usl": 29838.798703,
+    "mean": 4144.742105,
+    "robust_sigma": 3345.555556,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_161",
+    "unit": "a.u.",
+    "lsl": -13222.501645,
+    "usl": 21636.362698,
+    "mean": 4206.930526,
+    "robust_sigma": 2788.148148,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_024",
+    "unit": "a.u.",
+    "lsl": -11473.015907,
+    "usl": 11456.882049,
+    "mean": -8.066929,
+    "robust_sigma": 2012.731481,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_023",
+    "unit": "a.u.",
+    "lsl": -9526.579247,
+    "usl": 1927.856264,
+    "mean": -3799.361491,
+    "robust_sigma": 817.870352,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_159",
+    "unit": "a.u.",
+    "lsl": -3836.272135,
+    "usl": 5757.497398,
+    "mean": 960.612632,
+    "robust_sigma": 408.703704,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_021",
+    "unit": "a.u.",
+    "lsl": -8677.778647,
+    "usl": -2693.988195,
+    "mean": -5685.883421,
+    "robust_sigma": 665.648148,
+    "cp": 1.3333,
+    "cpk": 1.3333,
+    "rating": "capable",
+    "spec_sided": "two"
+  }
+]

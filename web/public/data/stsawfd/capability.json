@@ -1,0 +1,74 @@
+[
+  {
+    "parameter": "param_01",
+    "unit": "a.u.",
+    "lsl": -49.905927,
+    "usl": 1.754792,
+    "mean": -10.565843,
+    "robust_sigma": 22.474387,
+    "cp": 0.5145,
+    "cpk": 0.2454,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_02",
+    "unit": "a.u.",
+    "lsl": -3.696956,
+    "usl": 2.465582,
+    "mean": 0.600672,
+    "robust_sigma": 1.113008,
+    "cp": 0.8948,
+    "cpk": 0.5416,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_03",
+    "unit": "a.u.",
+    "lsl": -2.231248,
+    "usl": 2.246587,
+    "mean": -0.048053,
+    "robust_sigma": 1.105638,
+    "cp": 0.7133,
+    "cpk": 0.6956,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_04",
+    "unit": "a.u.",
+    "lsl": -1.277339,
+    "usl": 3.745434,
+    "mean": 0.029542,
+    "robust_sigma": 0.930143,
+    "cp": 0.8192,
+    "cpk": 0.4263,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_05",
+    "unit": "a.u.",
+    "lsl": -0.105323,
+    "usl": 0.509039,
+    "mean": 0.016404,
+    "robust_sigma": 0.099349,
+    "cp": 0.0884,
+    "cpk": 0.035,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "param_06",
+    "unit": "a.u.",
+    "lsl": -1.044316,
+    "usl": 1.836513,
+    "mean": -0.082396,
+    "robust_sigma": 1.304079,
+    "cp": 0.4995,
+    "cpk": 0.3336,
+    "rating": "not_capable",
+    "spec_sided": "two"
+  }
+]

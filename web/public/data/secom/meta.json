@@ -1,0 +1,12 @@
+{
+  "dataset_id": "secom",
+  "display_name": "SECOM (UCI ML Repository)",
+  "subtitle": "1,567 parts, 32 synthetic lots, 591 features",
+  "source": "UCI Machine Learning Repository",
+  "source_url": "https://archive.ics.uci.edu/dataset/179/secom",
+  "has_ground_truth": false,
+  "parts_total": 1567,
+  "lots_total": 32,
+  "by_construction": false,
+  "caveat": "No maverick ground truth. PAT capability and yield loss shown; recall and escape DPPM omitted."
+}

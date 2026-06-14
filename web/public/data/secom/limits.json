@@ -1,0 +1,68 @@
+[
+  {
+    "parameter": "param_162",
+    "unit": "a.u.",
+    "lsl": -21549.314493,
+    "usl": 29838.798703,
+    "pat_lower": -18932.8333,
+    "pat_upper": 21213.8333,
+    "cpk_target_lower": -21485.0794,
+    "cpk_target_upper": 29774.5636,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "param_161",
+    "unit": "a.u.",
+    "lsl": -13222.501645,
+    "usl": 21636.362698,
+    "pat_lower": -13222.5016,
+    "pat_upper": 19560.3889,
+    "cpk_target_lower": -13178.9281,
+    "cpk_target_upper": 21592.7891,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_024",
+    "unit": "a.u.",
+    "lsl": -11473.015907,
+    "usl": 11456.882049,
+    "pat_lower": -11473.0159,
+    "pat_upper": 11456.882,
+    "cpk_target_lower": -11444.3535,
+    "cpk_target_upper": 11428.2197,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_023",
+    "unit": "a.u.",
+    "lsl": -9526.579247,
+    "usl": 1927.856264,
+    "pat_lower": -8784.4721,
+    "pat_upper": 1029.9721,
+    "cpk_target_lower": -9512.2612,
+    "cpk_target_upper": 1913.5382,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "param_159",
+    "unit": "a.u.",
+    "lsl": -3836.272135,
+    "usl": 5757.497398,
+    "pat_lower": -1870.2222,
+    "pat_upper": 3034.2222,
+    "cpk_target_lower": -3824.2799,
+    "cpk_target_upper": 5745.5052,
+    "clamped_to_spec": false
+  },
+  {
+    "parameter": "param_021",
+    "unit": "a.u.",
+    "lsl": -8677.778647,
+    "usl": -2693.988195,
+    "pat_lower": -8677.7786,
+    "pat_upper": -2693.9882,
+    "cpk_target_lower": -8670.2989,
+    "cpk_target_upper": -2701.4679,
+    "clamped_to_spec": true
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "parameter": "sensitivity_error",
+    "unit": "%",
+    "lsl": -2.0,
+    "usl": 2.0,
+    "mean": 0.001763,
+    "robust_sigma": 0.396335,
+    "cp": 1.6645,
+    "cpk": 1.663,
+    "rating": "capable",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "offset_voltage",
+    "unit": "mV",
+    "lsl": -8.0,
+    "usl": 8.0,
+    "mean": 0.016597,
+    "robust_sigma": 1.008189,
+    "cp": 2.0709,
+    "cpk": 2.0666,
+    "rating": "excellent",
+    "spec_sided": "two"
+  },
+  {
+    "parameter": "input_referred_noise",
+    "unit": "mARMS",
+    "lsl": null,
+    "usl": 26.0,
+    "mean": 18.050252,
+    "robust_sigma": 1.010517,
+    "cp": null,
+    "cpk": 2.1766,
+    "rating": "excellent",
+    "spec_sided": "upper"
+  },
+  {
+    "parameter": "quiescent_supply_current",
+    "unit": "mA",
+    "lsl": null,
+    "usl": 12.0,
+    "mean": 9.510237,
+    "robust_sigma": 0.406904,
+    "cp": null,
+    "cpk": 2.0408,
+    "rating": "excellent",
+    "spec_sided": "upper"
+  },
+  {
+    "parameter": "bandwidth",
+    "unit": "MHz",
+    "lsl": 10.0,
+    "usl": null,
+    "mean": 12.506774,
+    "robust_sigma": 0.581687,
+    "cp": null,
+    "cpk": 1.4211,
+    "rating": "capable",
+    "spec_sided": "lower"
+  },
+  {
+    "parameter": "response_time",
+    "unit": "ns",
+    "lsl": null,
+    "usl": 50.0,
+    "mean": 40.008134,
+    "robust_sigma": 2.517173,
+    "cp": null,
+    "cpk": 1.3217,
+    "rating": "marginal",
+    "spec_sided": "upper"
+  }
+]

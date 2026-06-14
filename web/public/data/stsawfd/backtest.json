@@ -1,0 +1,2336 @@
+{
+  "has_ground_truth": false,
+  "screens": {
+    "pat": {
+      "recall": null,
+      "escape_dppm": 0.0,
+      "yield_loss_overall": 0.711793,
+      "tp": 0,
+      "fn": 0,
+      "fp": 36058,
+      "tn": 14600
+    },
+    "spec_only": {
+      "recall": null,
+      "escape_dppm": 0.0,
+      "yield_loss_overall": 0.705713,
+      "tp": 0,
+      "fn": 0,
+      "fp": 35750,
+      "tn": 14908
+    }
+  },
+  "yield_loss_by_lot": [
+    {
+      "lot": "6",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "7",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "8",
+      "yield_loss": 0.645455,
+      "drifted": false
+    },
+    {
+      "lot": "9",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "59",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "60",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "61",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "62",
+      "yield_loss": 0.783784,
+      "drifted": false
+    },
+    {
+      "lot": "63",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "64",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "65",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "66",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "67",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "68",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "69",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "70",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "71",
+      "yield_loss": 0.936364,
+      "drifted": false
+    },
+    {
+      "lot": "72",
+      "yield_loss": 0.854545,
+      "drifted": false
+    },
+    {
+      "lot": "73",
+      "yield_loss": 0.945455,
+      "drifted": false
+    },
+    {
+      "lot": "74",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "75",
+      "yield_loss": 0.720721,
+      "drifted": false
+    },
+    {
+      "lot": "76",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "77",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "78",
+      "yield_loss": 0.738739,
+      "drifted": false
+    },
+    {
+      "lot": "79",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "80",
+      "yield_loss": 0.872727,
+      "drifted": false
+    },
+    {
+      "lot": "81",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "82",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "83",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "84",
+      "yield_loss": 0.882883,
+      "drifted": false
+    },
+    {
+      "lot": "85",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "86",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "87",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "88",
+      "yield_loss": 0.742857,
+      "drifted": false
+    },
+    {
+      "lot": "89",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "90",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "91",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "92",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "93",
+      "yield_loss": 0.693694,
+      "drifted": false
+    },
+    {
+      "lot": "94",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "95",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "96",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "97",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "98",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "99",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "583",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "584",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "585",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "586",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "587",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "588",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "589",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "590",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "591",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "592",
+      "yield_loss": 0.827273,
+      "drifted": false
+    },
+    {
+      "lot": "593",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "594",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "595",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "596",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "597",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "598",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "599",
+      "yield_loss": 0.699029,
+      "drifted": false
+    },
+    {
+      "lot": "600",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "601",
+      "yield_loss": 0.647619,
+      "drifted": false
+    },
+    {
+      "lot": "602",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "603",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "604",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "605",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "606",
+      "yield_loss": 0.704762,
+      "drifted": false
+    },
+    {
+      "lot": "607",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "608",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "609",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "610",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "611",
+      "yield_loss": 0.881818,
+      "drifted": false
+    },
+    {
+      "lot": "612",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "613",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "614",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "615",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "616",
+      "yield_loss": 0.722222,
+      "drifted": false
+    },
+    {
+      "lot": "617",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "618",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "619",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "620",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "621",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "622",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "623",
+      "yield_loss": 0.954545,
+      "drifted": false
+    },
+    {
+      "lot": "624",
+      "yield_loss": 0.663462,
+      "drifted": false
+    },
+    {
+      "lot": "625",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "626",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "627",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "628",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "629",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "630",
+      "yield_loss": 0.790909,
+      "drifted": false
+    },
+    {
+      "lot": "631",
+      "yield_loss": 0.809091,
+      "drifted": false
+    },
+    {
+      "lot": "632",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "633",
+      "yield_loss": 0.657658,
+      "drifted": false
+    },
+    {
+      "lot": "634",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "635",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "636",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "637",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "638",
+      "yield_loss": 0.831683,
+      "drifted": false
+    },
+    {
+      "lot": "639",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "640",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "641",
+      "yield_loss": 0.809091,
+      "drifted": false
+    },
+    {
+      "lot": "642",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "643",
+      "yield_loss": 0.70297,
+      "drifted": false
+    },
+    {
+      "lot": "644",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "645",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "646",
+      "yield_loss": 0.963636,
+      "drifted": false
+    },
+    {
+      "lot": "647",
+      "yield_loss": 0.872727,
+      "drifted": false
+    },
+    {
+      "lot": "648",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "649",
+      "yield_loss": 0.790909,
+      "drifted": false
+    },
+    {
+      "lot": "650",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "651",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "652",
+      "yield_loss": 0.72973,
+      "drifted": false
+    },
+    {
+      "lot": "653",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "654",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "655",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "656",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "657",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "658",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "659",
+      "yield_loss": 0.790909,
+      "drifted": false
+    },
+    {
+      "lot": "660",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "661",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "662",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "663",
+      "yield_loss": 0.675676,
+      "drifted": false
+    },
+    {
+      "lot": "664",
+      "yield_loss": 0.688073,
+      "drifted": false
+    },
+    {
+      "lot": "665",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "666",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "667",
+      "yield_loss": 0.698113,
+      "drifted": false
+    },
+    {
+      "lot": "668",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "669",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "670",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "671",
+      "yield_loss": 0.669725,
+      "drifted": false
+    },
+    {
+      "lot": "672",
+      "yield_loss": 0.742857,
+      "drifted": false
+    },
+    {
+      "lot": "673",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "674",
+      "yield_loss": 0.66055,
+      "drifted": false
+    },
+    {
+      "lot": "675",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "676",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "677",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "678",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "679",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "680",
+      "yield_loss": 0.653846,
+      "drifted": false
+    },
+    {
+      "lot": "681",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "682",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "683",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "684",
+      "yield_loss": 0.8,
+      "drifted": false
+    },
+    {
+      "lot": "685",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "686",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "687",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "688",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "689",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "690",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "691",
+      "yield_loss": 0.657658,
+      "drifted": false
+    },
+    {
+      "lot": "692",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "693",
+      "yield_loss": 0.738739,
+      "drifted": false
+    },
+    {
+      "lot": "694",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "695",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "696",
+      "yield_loss": 0.688679,
+      "drifted": false
+    },
+    {
+      "lot": "697",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "698",
+      "yield_loss": 0.728155,
+      "drifted": false
+    },
+    {
+      "lot": "699",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "700",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "701",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "702",
+      "yield_loss": 0.792793,
+      "drifted": false
+    },
+    {
+      "lot": "703",
+      "yield_loss": 0.692308,
+      "drifted": false
+    },
+    {
+      "lot": "704",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "705",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "706",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "707",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "708",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "709",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "710",
+      "yield_loss": 0.954545,
+      "drifted": false
+    },
+    {
+      "lot": "711",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "712",
+      "yield_loss": 0.66055,
+      "drifted": false
+    },
+    {
+      "lot": "713",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "714",
+      "yield_loss": 0.972727,
+      "drifted": false
+    },
+    {
+      "lot": "715",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "716",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "717",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "718",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "719",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "720",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "721",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "722",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "723",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "724",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "725",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "726",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "727",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "728",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "729",
+      "yield_loss": 0.836364,
+      "drifted": false
+    },
+    {
+      "lot": "730",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "731",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "732",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "733",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "734",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "735",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "736",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "737",
+      "yield_loss": 0.909091,
+      "drifted": false
+    },
+    {
+      "lot": "738",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "739",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "740",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "741",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "742",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "743",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "744",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "745",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "746",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "747",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "748",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "749",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "750",
+      "yield_loss": 0.657658,
+      "drifted": false
+    },
+    {
+      "lot": "751",
+      "yield_loss": 0.720721,
+      "drifted": false
+    },
+    {
+      "lot": "752",
+      "yield_loss": 0.9,
+      "drifted": false
+    },
+    {
+      "lot": "753",
+      "yield_loss": 0.8,
+      "drifted": false
+    },
+    {
+      "lot": "754",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "755",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "756",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "757",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "758",
+      "yield_loss": 0.774775,
+      "drifted": false
+    },
+    {
+      "lot": "759",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "760",
+      "yield_loss": 0.650485,
+      "drifted": false
+    },
+    {
+      "lot": "761",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "762",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "763",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "764",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "765",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "766",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "767",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "768",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "769",
+      "yield_loss": 0.774775,
+      "drifted": false
+    },
+    {
+      "lot": "770",
+      "yield_loss": 0.688679,
+      "drifted": false
+    },
+    {
+      "lot": "771",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "772",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "773",
+      "yield_loss": 0.827273,
+      "drifted": false
+    },
+    {
+      "lot": "774",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "775",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "776",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "777",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "778",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "779",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "780",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "781",
+      "yield_loss": 0.76699,
+      "drifted": false
+    },
+    {
+      "lot": "782",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "783",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "784",
+      "yield_loss": 0.863636,
+      "drifted": false
+    },
+    {
+      "lot": "785",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "786",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "787",
+      "yield_loss": 0.675676,
+      "drifted": false
+    },
+    {
+      "lot": "788",
+      "yield_loss": 0.774775,
+      "drifted": false
+    },
+    {
+      "lot": "789",
+      "yield_loss": 0.675676,
+      "drifted": false
+    },
+    {
+      "lot": "790",
+      "yield_loss": 0.663462,
+      "drifted": false
+    },
+    {
+      "lot": "791",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "792",
+      "yield_loss": 0.731481,
+      "drifted": false
+    },
+    {
+      "lot": "793",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "794",
+      "yield_loss": 0.863636,
+      "drifted": false
+    },
+    {
+      "lot": "795",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "796",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "797",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "798",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "799",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "800",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "801",
+      "yield_loss": 0.872727,
+      "drifted": false
+    },
+    {
+      "lot": "802",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "803",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "804",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "805",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "806",
+      "yield_loss": 0.818182,
+      "drifted": false
+    },
+    {
+      "lot": "807",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "808",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "809",
+      "yield_loss": 0.810811,
+      "drifted": false
+    },
+    {
+      "lot": "810",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "811",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "812",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "813",
+      "yield_loss": 0.688679,
+      "drifted": false
+    },
+    {
+      "lot": "814",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "815",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "816",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "817",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "818",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "819",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "820",
+      "yield_loss": 0.918182,
+      "drifted": false
+    },
+    {
+      "lot": "821",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "822",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "823",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "824",
+      "yield_loss": 0.8,
+      "drifted": false
+    },
+    {
+      "lot": "825",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "826",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "827",
+      "yield_loss": 0.827273,
+      "drifted": false
+    },
+    {
+      "lot": "828",
+      "yield_loss": 0.645455,
+      "drifted": false
+    },
+    {
+      "lot": "829",
+      "yield_loss": 0.845455,
+      "drifted": false
+    },
+    {
+      "lot": "830",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "831",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "832",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "833",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "834",
+      "yield_loss": 0.679245,
+      "drifted": false
+    },
+    {
+      "lot": "835",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "836",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "837",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "838",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "839",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "840",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "841",
+      "yield_loss": 0.693694,
+      "drifted": false
+    },
+    {
+      "lot": "842",
+      "yield_loss": 0.648649,
+      "drifted": false
+    },
+    {
+      "lot": "843",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "844",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "845",
+      "yield_loss": 0.872727,
+      "drifted": false
+    },
+    {
+      "lot": "846",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "847",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "848",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "849",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "850",
+      "yield_loss": 0.688073,
+      "drifted": false
+    },
+    {
+      "lot": "851",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "852",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "853",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "854",
+      "yield_loss": 0.779817,
+      "drifted": false
+    },
+    {
+      "lot": "855",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "856",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "857",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "858",
+      "yield_loss": 0.730769,
+      "drifted": false
+    },
+    {
+      "lot": "859",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "860",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "861",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "862",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "863",
+      "yield_loss": 0.756757,
+      "drifted": false
+    },
+    {
+      "lot": "864",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "865",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "866",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "867",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "868",
+      "yield_loss": 0.682243,
+      "drifted": false
+    },
+    {
+      "lot": "869",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "870",
+      "yield_loss": 0.688679,
+      "drifted": false
+    },
+    {
+      "lot": "871",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "872",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "873",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "874",
+      "yield_loss": 0.772727,
+      "drifted": false
+    },
+    {
+      "lot": "875",
+      "yield_loss": 0.67619,
+      "drifted": false
+    },
+    {
+      "lot": "876",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "877",
+      "yield_loss": 0.657407,
+      "drifted": false
+    },
+    {
+      "lot": "878",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "879",
+      "yield_loss": 0.702703,
+      "drifted": false
+    },
+    {
+      "lot": "880",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "881",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "882",
+      "yield_loss": 0.932692,
+      "drifted": false
+    },
+    {
+      "lot": "883",
+      "yield_loss": 0.679245,
+      "drifted": false
+    },
+    {
+      "lot": "884",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "885",
+      "yield_loss": 0.647059,
+      "drifted": false
+    },
+    {
+      "lot": "886",
+      "yield_loss": 0.854545,
+      "drifted": false
+    },
+    {
+      "lot": "887",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "888",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "889",
+      "yield_loss": 0.669725,
+      "drifted": false
+    },
+    {
+      "lot": "890",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "891",
+      "yield_loss": 0.669725,
+      "drifted": false
+    },
+    {
+      "lot": "892",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "893",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "894",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "895",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "896",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "897",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "898",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "899",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "900",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "901",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "902",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "903",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "904",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "905",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "906",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "907",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "908",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "909",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "910",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "911",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "912",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "913",
+      "yield_loss": 0.695238,
+      "drifted": false
+    },
+    {
+      "lot": "914",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "915",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "916",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "917",
+      "yield_loss": 0.854545,
+      "drifted": false
+    },
+    {
+      "lot": "918",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "919",
+      "yield_loss": 0.690909,
+      "drifted": false
+    },
+    {
+      "lot": "920",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "921",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "922",
+      "yield_loss": 0.872727,
+      "drifted": false
+    },
+    {
+      "lot": "923",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "924",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "925",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "926",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "927",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "928",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "929",
+      "yield_loss": 0.81982,
+      "drifted": false
+    },
+    {
+      "lot": "930",
+      "yield_loss": 0.688679,
+      "drifted": false
+    },
+    {
+      "lot": "931",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "932",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "933",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "934",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "935",
+      "yield_loss": 0.657658,
+      "drifted": false
+    },
+    {
+      "lot": "936",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "937",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "938",
+      "yield_loss": 0.8,
+      "drifted": false
+    },
+    {
+      "lot": "939",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "940",
+      "yield_loss": 0.790909,
+      "drifted": false
+    },
+    {
+      "lot": "941",
+      "yield_loss": 0.650485,
+      "drifted": false
+    },
+    {
+      "lot": "942",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "943",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "944",
+      "yield_loss": 0.666667,
+      "drifted": false
+    },
+    {
+      "lot": "945",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "946",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "947",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "948",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "949",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "950",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "951",
+      "yield_loss": 0.657143,
+      "drifted": false
+    },
+    {
+      "lot": "952",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "953",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "954",
+      "yield_loss": 0.845455,
+      "drifted": false
+    },
+    {
+      "lot": "955",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "956",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "957",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "958",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "959",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "960",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "961",
+      "yield_loss": 0.780952,
+      "drifted": false
+    },
+    {
+      "lot": "962",
+      "yield_loss": 0.745455,
+      "drifted": false
+    },
+    {
+      "lot": "963",
+      "yield_loss": 0.709091,
+      "drifted": false
+    },
+    {
+      "lot": "964",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "965",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "966",
+      "yield_loss": 0.727273,
+      "drifted": false
+    },
+    {
+      "lot": "967",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "968",
+      "yield_loss": 0.754545,
+      "drifted": false
+    },
+    {
+      "lot": "969",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "970",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "971",
+      "yield_loss": 0.736364,
+      "drifted": false
+    },
+    {
+      "lot": "972",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "973",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "974",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "975",
+      "yield_loss": 0.654545,
+      "drifted": false
+    },
+    {
+      "lot": "976",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "977",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "978",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "979",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "980",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "981",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "982",
+      "yield_loss": 0.827273,
+      "drifted": false
+    },
+    {
+      "lot": "983",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "984",
+      "yield_loss": 0.682243,
+      "drifted": false
+    },
+    {
+      "lot": "985",
+      "yield_loss": 0.663636,
+      "drifted": false
+    },
+    {
+      "lot": "986",
+      "yield_loss": 0.809091,
+      "drifted": false
+    },
+    {
+      "lot": "987",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "988",
+      "yield_loss": 0.718182,
+      "drifted": false
+    },
+    {
+      "lot": "989",
+      "yield_loss": 1.0,
+      "drifted": false
+    },
+    {
+      "lot": "990",
+      "yield_loss": 0.763636,
+      "drifted": false
+    },
+    {
+      "lot": "991",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "992",
+      "yield_loss": 0.672727,
+      "drifted": false
+    },
+    {
+      "lot": "993",
+      "yield_loss": 0.836364,
+      "drifted": false
+    },
+    {
+      "lot": "994",
+      "yield_loss": 0.781818,
+      "drifted": false
+    },
+    {
+      "lot": "995",
+      "yield_loss": 0.681818,
+      "drifted": false
+    },
+    {
+      "lot": "996",
+      "yield_loss": 0.7,
+      "drifted": false
+    },
+    {
+      "lot": "997",
+      "yield_loss": 0.945455,
+      "drifted": false
+    },
+    {
+      "lot": "998",
+      "yield_loss": 0.81982,
+      "drifted": false
+    },
+    {
+      "lot": "999",
+      "yield_loss": 0.727273,
+      "drifted": false
+    }
+  ],
+  "drift": null
+}

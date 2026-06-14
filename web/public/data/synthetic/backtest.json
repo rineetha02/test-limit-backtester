@@ -1,0 +1,52 @@
+{
+  "has_ground_truth": true,
+  "screens": {
+    "pat": {
+      "recall": 1.0,
+      "escape_dppm": 0.0,
+      "yield_loss_overall": 0.021061,
+      "tp": 59,
+      "fn": 0,
+      "fp": 83,
+      "tn": 3858
+    },
+    "spec_only": {
+      "recall": 0.0,
+      "escape_dppm": 14831.57,
+      "yield_loss_overall": 0.005582,
+      "tp": 0,
+      "fn": 59,
+      "fp": 22,
+      "tn": 3919
+    }
+  },
+  "yield_loss_by_lot": [
+    {
+      "lot": "LOT07",
+      "yield_loss": 0.004069,
+      "drifted": false
+    },
+    {
+      "lot": "LOT08",
+      "yield_loss": 0.005056,
+      "drifted": false
+    },
+    {
+      "lot": "LOT09",
+      "yield_loss": 0.011134,
+      "drifted": false
+    },
+    {
+      "lot": "LOT10",
+      "yield_loss": 0.06422,
+      "drifted": true
+    }
+  ],
+  "drift": {
+    "param": "offset_voltage",
+    "cpk_reference": 2.6395,
+    "cpk_drifted": 1.1484,
+    "drifted_lot": "LOT10",
+    "shift_mv": 4.31
+  }
+}

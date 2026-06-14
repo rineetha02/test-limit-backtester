@@ -1,0 +1,91 @@
+{
+  "has_ground_truth": false,
+  "screens": {
+    "pat": {
+      "recall": null,
+      "escape_dppm": 0.0,
+      "yield_loss_overall": 0.056726,
+      "tp": 0,
+      "fn": 0,
+      "fp": 35,
+      "tn": 582
+    },
+    "spec_only": {
+      "recall": null,
+      "escape_dppm": 0.0,
+      "yield_loss_overall": 0.016207,
+      "tp": 0,
+      "fn": 0,
+      "fp": 10,
+      "tn": 607
+    }
+  },
+  "yield_loss_by_lot": [
+    {
+      "lot": "LOT020",
+      "yield_loss": 0.12,
+      "drifted": false
+    },
+    {
+      "lot": "LOT021",
+      "yield_loss": 0.06,
+      "drifted": false
+    },
+    {
+      "lot": "LOT022",
+      "yield_loss": 0.08,
+      "drifted": false
+    },
+    {
+      "lot": "LOT023",
+      "yield_loss": 0.04,
+      "drifted": false
+    },
+    {
+      "lot": "LOT024",
+      "yield_loss": 0.06,
+      "drifted": false
+    },
+    {
+      "lot": "LOT025",
+      "yield_loss": 0.02,
+      "drifted": false
+    },
+    {
+      "lot": "LOT026",
+      "yield_loss": 0.08,
+      "drifted": false
+    },
+    {
+      "lot": "LOT027",
+      "yield_loss": 0.04,
+      "drifted": false
+    },
+    {
+      "lot": "LOT028",
+      "yield_loss": 0.1,
+      "drifted": false
+    },
+    {
+      "lot": "LOT029",
+      "yield_loss": 0.0,
+      "drifted": false
+    },
+    {
+      "lot": "LOT030",
+      "yield_loss": 0.06,
+      "drifted": false
+    },
+    {
+      "lot": "LOT031",
+      "yield_loss": 0.04,
+      "drifted": false
+    },
+    {
+      "lot": "LOT032",
+      "yield_loss": 0.0,
+      "drifted": false
+    }
+  ],
+  "drift": null
+}

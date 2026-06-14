@@ -1,0 +1,68 @@
+[
+  {
+    "parameter": "param_01",
+    "unit": "a.u.",
+    "lsl": -49.905927,
+    "usl": 1.754792,
+    "pat_lower": -49.9059,
+    "pat_upper": 1.7548,
+    "cpk_target_lower": -77.34,
+    "cpk_target_upper": 56.2083,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_02",
+    "unit": "a.u.",
+    "lsl": -3.696956,
+    "usl": 2.465582,
+    "pat_lower": -3.697,
+    "pat_upper": 2.4656,
+    "cpk_target_lower": -3.9791,
+    "cpk_target_upper": 5.1805,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_03",
+    "unit": "a.u.",
+    "lsl": -2.231248,
+    "usl": 2.246587,
+    "pat_lower": -2.2312,
+    "pat_upper": 2.2466,
+    "cpk_target_lower": -4.2224,
+    "cpk_target_upper": 4.1263,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_04",
+    "unit": "a.u.",
+    "lsl": -1.277339,
+    "usl": 3.745434,
+    "pat_lower": -1.2773,
+    "pat_upper": 3.7454,
+    "cpk_target_lower": -4.0479,
+    "cpk_target_upper": 4.107,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_05",
+    "unit": "a.u.",
+    "lsl": -0.105323,
+    "usl": 0.509039,
+    "pat_lower": -0.1053,
+    "pat_upper": 0.4908,
+    "cpk_target_lower": -4.6072,
+    "cpk_target_upper": 4.64,
+    "clamped_to_spec": true
+  },
+  {
+    "parameter": "param_06",
+    "unit": "a.u.",
+    "lsl": -1.044316,
+    "usl": 1.836513,
+    "pat_lower": -1.0443,
+    "pat_upper": 1.8365,
+    "cpk_target_lower": -3.9179,
+    "cpk_target_upper": 3.7531,
+    "clamped_to_spec": true
+  }
+]

@@ -1,0 +1,7 @@
+parameter,unit,lsl,usl,sided
+sensitivity_error,%,-2.0,2.0,two
+offset_voltage,mV,-8.0,8.0,two
+input_referred_noise,mARMS,,26.0,upper
+quiescent_supply_current,mA,,12.0,upper
+bandwidth,MHz,10.0,,lower
+response_time,ns,,50.0,upper

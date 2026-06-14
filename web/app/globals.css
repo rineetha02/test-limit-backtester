@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0E2A33;
+
+  /* brand palette */
+  --brand: #00857C;
+  --brand-deep: #006D5B;
+  --brand-tint: #E6F4F2;
+  --ink: #0E2A33;
+  --ink-soft: #46606B;
+  --surface: #ffffff;
+  --surface-alt: #F5F8F9;
+  --border: #D9E3E6;
+  --spec-color: #D32F2F;
+  --pat-color: #F59E0B;
+
+  /* capability rating scale */
+  --not-capable: #B23A3A;
+  --marginal: #C98A2E;
+  --capable: #3E8F86;
+  --excellent: #1C6E66;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* brand */
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-tint: var(--brand-tint);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-border: var(--border);
+
+  /* semantic */
+  --color-spec: var(--spec-color);
+  --color-pat: var(--pat-color);
+
+  /* ratings */
+  --color-not-capable: var(--not-capable);
+  --color-marginal: var(--marginal);
+  --color-capable: var(--capable);
+  --color-excellent: var(--excellent);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--ink);
+  background: var(--surface);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mono for numeric data */
+.font-data {
+  font-family: var(--font-geist-mono), monospace;
+  font-feature-settings: "tnum" 1;
+}
+
+/* ---- Print ---- */
+@media print {
+  nav, footer, [data-no-print] { display: none !important; }
+  body { background: white; color: #0E2A33; font-size: 11pt; }
+  h1 { font-size: 18pt; }
+  h2 { font-size: 14pt; }
+  .page-break { page-break-before: always; }
+  a[href]::after { content: ""; }
+}
+
+/* ---- Focus ---- */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---- Transitions (respect reduced motion) ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
