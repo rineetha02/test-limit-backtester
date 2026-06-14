@@ -237,6 +237,47 @@ def export_dataset(
 
     # drift.json — synthetic only (requires per-lot Cpk + two distributions)
     if dataset_id == "synthetic" and "offset_voltage" in df.columns:
+        # --- Dynamic PAT simulation ---
+        all_lots_ordered = sorted(df["lot_id"].unique())
+        dynamic_pat = []
+        for i, lot_d in enumerate(all_lots_ordered):
+            if df[df["lot_id"] == lot_d]["lot_role"].iloc[0] == "reference":
+                continue
+            prior_df = df[df["lot_id"].isin(all_lots_ordered[:i])]
+            lot_df = df[df["lot_id"] == lot_d]
+            good = lot_df[
+                (lot_df["true_latent_fail"] == 0) & (lot_df["spec_fail"] == 0)
+            ]
+            pat_fail = pd.Series([False] * len(good), index=good.index)
+            for param_d in params:
+                if param_d not in good.columns:
+                    continue
+                spec_row_d = spec_df[spec_df["parameter"] == param_d].iloc[0]
+                lsl_d = float(spec_row_d["lsl"]) if pd.notna(spec_row_d.get("lsl")) else None
+                usl_d = float(spec_row_d["usl"]) if pd.notna(spec_row_d.get("usl")) else None
+                prior_vals = prior_df[param_d].dropna()
+                if len(prior_vals) < 5:
+                    continue
+                dyn_med = float(np.median(prior_vals))
+                dyn_sig = _robust_sigma(prior_vals)
+                dyn_lo = max(lsl_d, dyn_med - 6 * dyn_sig) if lsl_d is not None else dyn_med - 6 * dyn_sig
+                dyn_hi = min(usl_d, dyn_med + 6 * dyn_sig) if usl_d is not None else dyn_med + 6 * dyn_sig
+                pv = good[param_d].dropna()
+                if lsl_d is not None:
+                    pat_fail.loc[pv[pv < dyn_lo].index] = True
+                if usl_d is not None:
+                    pat_fail.loc[pv[pv > dyn_hi].index] = True
+            fp_dyn = int(pat_fail.sum())
+            yl_dyn = fp_dyn / len(lot_df)
+            static_lot = next((r for r in per_lot if str(r["lot_id"]) == str(lot_d)), {})
+            dynamic_pat.append({
+                "lot_id": str(lot_d),
+                "drifted": str(lot_d) in drifted_lots,
+                "fp_static": int(static_lot.get("fp", 0)),
+                "fp_dynamic": fp_dyn,
+                "yield_loss_static": round(float(static_lot.get("yield_loss_rate", 0)), 4),
+                "yield_loss_dynamic": round(yl_dyn, 4),
+            })
         per_lot_cap_path = reports_dir / "capability_table_per_lot.csv"
         lot_cpk_trend = []
         if per_lot_cap_path.exists():
@@ -307,6 +348,7 @@ def export_dataset(
                     "bins": _bins_fixed(lot10_ov, edges),
                 },
                 "lot_cpk_trend": lot_cpk_trend,
+                "dynamic_pat": dynamic_pat,
             },
         )
 

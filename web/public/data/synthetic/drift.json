@@ -481,5 +481,39 @@
       "role": "holdout",
       "drifted": true
     }
+  ],
+  "dynamic_pat": [
+    {
+      "lot_id": "LOT07",
+      "drifted": false,
+      "fp_static": 4,
+      "fp_dynamic": 0,
+      "yield_loss_static": 0.0041,
+      "yield_loss_dynamic": 0.0
+    },
+    {
+      "lot_id": "LOT08",
+      "drifted": false,
+      "fp_static": 5,
+      "fp_dynamic": 1,
+      "yield_loss_static": 0.0051,
+      "yield_loss_dynamic": 0.001
+    },
+    {
+      "lot_id": "LOT09",
+      "drifted": false,
+      "fp_static": 11,
+      "fp_dynamic": 0,
+      "yield_loss_static": 0.0111,
+      "yield_loss_dynamic": 0.0
+    },
+    {
+      "lot_id": "LOT10",
+      "drifted": true,
+      "fp_static": 63,
+      "fp_dynamic": 1,
+      "yield_loss_static": 0.0642,
+      "yield_loss_dynamic": 0.001
+    }
   ]
 }

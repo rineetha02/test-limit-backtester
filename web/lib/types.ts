@@ -97,6 +97,15 @@ export interface BacktestData {
   drift: DriftInfo | null;
 }
 
+export interface DynamicPatLot {
+  lot_id: string;
+  drifted: boolean;
+  fp_static: number;
+  fp_dynamic: number;
+  yield_loss_static: number;
+  yield_loss_dynamic: number;
+}
+
 export interface DriftLotCpk {
   lot_id: string;
   cpk: number;
@@ -125,6 +134,7 @@ export interface DriftData {
     bins: HistogramBin[];
   };
   lot_cpk_trend: DriftLotCpk[];
+  dynamic_pat: DynamicPatLot[];
 }
 
 export interface DatasetBundle {

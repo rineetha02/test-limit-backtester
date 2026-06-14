@@ -2,24 +2,39 @@
 
 import { Check } from "lucide-react";
 
-export const STAGES = [
+export const STAGES_BASE = [
+  { id: 0, label: "Dataset" },
+  { id: 1, label: "Capability" },
+  { id: 2, label: "Limits" },
+  { id: 3, label: "Backtest" },
+  { id: 4, label: "Takeaway" },
+] as const;
+
+export const STAGES_DRIFT = [
   { id: 0, label: "Dataset" },
   { id: 1, label: "Capability" },
   { id: 2, label: "Limits" },
   { id: 3, label: "Backtest" },
   { id: 4, label: "Drift" },
-  { id: 5, label: "Takeaway" },
+  { id: 5, label: "Dynamic" },
+  { id: 6, label: "Takeaway" },
 ] as const;
+
+interface StageEntry {
+  id: number;
+  label: string;
+}
 
 interface Props {
   current: number;
   onSelect: (idx: number) => void;
+  stages?: readonly StageEntry[];
 }
 
-export function StepperNav({ current, onSelect }: Props) {
+export function StepperNav({ current, onSelect, stages = STAGES_BASE }: Props) {
   return (
     <nav aria-label="Demo stages" className="flex items-center gap-0">
-      {STAGES.map((stage, i) => {
+      {stages.map((stage, i) => {
         const done = stage.id < current;
         const active = stage.id === current;
         return (
@@ -39,7 +54,7 @@ export function StepperNav({ current, onSelect }: Props) {
               </span>
               <span className="text-xs font-medium whitespace-nowrap hidden sm:block">{stage.label}</span>
             </button>
-            {i < STAGES.length - 1 && (
+            {i < stages.length - 1 && (
               <div
                 className={`h-px w-6 flex-shrink-0 ${stage.id < current ? "bg-brand" : "bg-border"}`}
               />

@@ -3,12 +3,13 @@
 import { useState, useEffect, useCallback } from "react";
 import { TopBar } from "@/components/TopBar";
 import { Footer } from "@/components/Footer";
-import { StepperNav } from "@/components/ui/StepperNav";
+import { StepperNav, STAGES_BASE, STAGES_DRIFT } from "@/components/ui/StepperNav";
 import { DatasetStage } from "@/components/stages/DatasetStage";
 import { CapabilityStage } from "@/components/stages/CapabilityStage";
 import { LimitsStage } from "@/components/stages/LimitsStage";
 import { BacktestStage } from "@/components/stages/BacktestStage";
 import { DriftStage } from "@/components/stages/DriftStage";
+import { DynamicPatStage } from "@/components/stages/DynamicPatStage";
 import { TakeawayStage } from "@/components/stages/TakeawayStage";
 import { UploadFlow } from "@/components/upload/UploadFlow";
 import { loadDataset } from "@/lib/dataLoader";
@@ -40,16 +41,20 @@ export default function DemoPage() {
     loadData(dataset);
   }, [dataset, loadData]);
 
-  // Keyboard navigation
+  const hasDrift = bundle?.drift != null;
+  // Drift flow: 0-Dataset 1-Capability 2-Limits 3-Backtest 4-Drift 5-DynamicPAT 6-Takeaway
+  // Base flow:  0-Dataset 1-Capability 2-Limits 3-Backtest 4-Takeaway
+  const maxStage = hasDrift ? 6 : 4;
+
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
-      if (e.key === "ArrowRight" && stage < 5) setStage((s) => s + 1);
+      if (e.key === "ArrowRight" && stage < maxStage) setStage((s) => s + 1);
       if (e.key === "ArrowLeft" && stage > 0) setStage((s) => s - 1);
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [stage]);
+  }, [stage, maxStage]);
 
   const handleDatasetChange = (id: DatasetId) => {
     setDataset(id);
@@ -57,18 +62,17 @@ export default function DemoPage() {
     setBundle(null);
   };
 
-  const hasDrift = bundle?.drift != null;
-  // Skip drift stage for datasets without drift data
-  const effectiveStages = hasDrift ? 6 : 5;
-  const stageForComponent = !hasDrift && stage >= 4 ? stage + 1 : stage;
-
   return (
     <>
       <TopBar dataset={dataset} onDatasetChange={handleDatasetChange} />
       <main className="flex-1 mx-auto max-w-4xl w-full px-4 sm:px-6 py-8">
         {/* Stepper */}
         <div className="flex items-center justify-between mb-8" data-no-print>
-          <StepperNav current={stage} onSelect={setStage} />
+          <StepperNav
+            current={stage}
+            onSelect={setStage}
+            stages={hasDrift ? STAGES_DRIFT : STAGES_BASE}
+          />
           <div className="flex gap-2">
             <button
               type="button"
@@ -122,10 +126,11 @@ export default function DemoPage() {
                 backtest={bundle.backtest}
                 meta={bundle.meta}
                 hasDrift={hasDrift}
-                onNext={() => setStage(hasDrift ? 4 : 5)}
+                onNext={() => setStage(4)}
                 onBack={() => setStage(2)}
               />
             )}
+            {/* Drift flow stages */}
             {stage === 4 && hasDrift && bundle.drift && (
               <DriftStage
                 drift={bundle.drift}
@@ -133,18 +138,25 @@ export default function DemoPage() {
                 onBack={() => setStage(3)}
               />
             )}
-            {stage === 5 && (
-              <TakeawayStage
-                bundle={bundle}
-                onRestart={() => { setStage(0); }}
-                onBack={() => setStage(hasDrift ? 4 : 3)}
+            {stage === 5 && hasDrift && bundle.drift && (
+              <DynamicPatStage
+                drift={bundle.drift}
+                onNext={() => setStage(6)}
+                onBack={() => setStage(4)}
               />
             )}
-            {/* Non-drift datasets: stage 4 = takeaway */}
+            {stage === 6 && hasDrift && (
+              <TakeawayStage
+                bundle={bundle}
+                onRestart={() => setStage(0)}
+                onBack={() => setStage(5)}
+              />
+            )}
+            {/* Base flow: stage 4 = Takeaway */}
             {stage === 4 && !hasDrift && (
               <TakeawayStage
                 bundle={bundle}
-                onRestart={() => { setStage(0); }}
+                onRestart={() => setStage(0)}
                 onBack={() => setStage(3)}
               />
             )}
